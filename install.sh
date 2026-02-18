@@ -69,7 +69,7 @@ echo ""
 echo "Installing WiringNP..."
 echo "======================="
 if [ ! -d WiringNP ]; then
-    git clone --depth=1 https://github.com/friendlyarm/WiringNP.git
+    git clone --depth=1 https://github.com/pedrolamas/WiringNP.git
 fi
 
 pushd WiringNP
